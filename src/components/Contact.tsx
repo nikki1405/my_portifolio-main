@@ -6,6 +6,7 @@ import { PhoneIcon, MailIcon, MapPinIcon } from "lucide-react";
 import { Github, Linkedin, Youtube, Instagram } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import { useState, FormEvent } from "react";
+import heroImg from "../assets/hero.jpg";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -146,7 +147,7 @@ const Contact = () => {
             <div className="mt-10 flex items-center">
               <div className="w-20 h-20 rounded-full overflow-hidden mr-4">
                 <img 
-                  src="./src/assets/hero.jpg" 
+                  src={heroImg}
                   alt="Rejeti Nikhil Bhuvana Sharma" 
                   className="w-full h-full object-cover" 
                 />
