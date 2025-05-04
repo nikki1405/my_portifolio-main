@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
-import ticketImg from "../assets/ticket.png";
-import gpaImg from "../assets/gpa.png";
-import portfolioImg from "../assets/portifolio.png";
-import rentImg from "../assets/rent.png";
-import aharImg from "../assets/ahar.png";
-import codeImg from "../assets/code.png";
+import ticketImage from "../assets/ticket.png";
+import gpaImage from "../assets/gpa.png";
+import portfolioImage from "../assets/portifolio.png";
+import rentImage from "../assets/rent.png";
+import aharImage from "../assets/ahar.png";
+import codeImage from "../assets/code.png";
 
 const Projects = () => {
   const projects = [
@@ -13,7 +13,7 @@ const Projects = () => {
       id: 1,
       title: "AI based Online Ticketing System",
       description: "An AI based Online chatbot based Ticketing System for Museums and Tourist Places, providing users with AI Guide  and ticket booking options.",
-      image: ticketImg,
+      image: ticketImage,
       githubLink: "https://github.com/nikki1405/Ticket_tech-main",
       liveLink: "https://github.com/nikki1405/Ticket_tech-main",
       technologies: ["HTML" ," BootstrapCSS", "Django", "MySQL"]
@@ -22,7 +22,7 @@ const Projects = () => {
       id: 2,
       title: "VIIT GPA GENIE",
       description: "A web application that helps students calculate their CGPA priorly  based on their internal ans external marks.", 
-      image: gpaImg,
+      image: gpaImage,
       githubLink: "https://github.com/nikki1405/VIIT_GPA_GENIE",
       liveLink: "https://viit-gpa-genie.vercel.app/",
       technologies: ["HTML", "CSS", "JavaScript"]
@@ -31,7 +31,7 @@ const Projects = () => {
       id: 3,
       title: "My Portfolio",
       description: "My personal portfolio website showcasing my projects, skills, and experience.",
-      image: portfolioImg,
+      image: portfolioImage,
       githubLink: "https://github.com/nikki1405/my_portifolio",
       liveLink: "#",
       technologies: ["React", "TypeScript", "Tailwind CSS"] 
@@ -40,7 +40,7 @@ const Projects = () => {
       id: 4,
       title: "Rental Management System",
       description: "A rent prediction ML model based web app that helps users estimate house rents based on location, size, and other features!",
-      image: rentImg,
+      image: rentImage,
       githubLink: "https://github.com/nikki1405/Rent_Seva",
       liveLink: "https://github.com/nikki1405/Rent_Seva",
       technologies: ["React", "Django", "Tailwind CSS","Machine Learning"]
@@ -49,7 +49,7 @@ const Projects = () => {
       id: 5,
       title: "AAharsetu Food Bridge",
       description: "A web application that connects food donors with NGOs and individuals in need, facilitating food distribution and reducing food waste.",
-      image: aharImg,
+      image: aharImage,
       githubLink: "https://github.com/nikki1405/ahaarsetu-food-bridge",
       liveLink: "https://ahaarsetu-food-bridge.lovable.app/",
       technologies: ["Django", "React", "Tailwind CSS", "MySQL"]
@@ -58,7 +58,7 @@ const Projects = () => {
       id: 6,
       title: "Oniline Coding Platform",
       description: "A web application that allows users to practice coding problems, submit solutions, and receive feedback and coding tests.",
-      image: codeImg,
+      image: codeImage,
       githubLink: "https://github.com/nikki1405/codefairy-guardian-main",
       liveLink: "https://faircodekeeper.lovable.app/",
       technologies: ["React","Tailwind CSS" , "Django", "Machine Learning"]
