@@ -1,6 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowDownIcon } from "lucide-react";
+import heroImg from "../assets/hero.jpg";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-blue-400 rounded-full blur opacity-50"></div>
             <div className="relative bg-white p-2 rounded-full">
               <img 
-                src="./src/assets/hero.jpg" 
+                src={heroImg}
                 alt="Rejeti Nikhil Bhuvana Sharma" 
                 className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full"
               />

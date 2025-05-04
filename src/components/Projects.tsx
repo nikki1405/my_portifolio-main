@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
+import ticketImg from "../assets/ticket.png";
+import gpaImg from "../assets/gpa.png";
+import portfolioImg from "../assets/portifolio.png";
+import rentImg from "../assets/rent.png";
+import aharImg from "../assets/ahar.png";
+import codeImg from "../assets/code.png";
 
 const Projects = () => {
   const projects = [
@@ -7,7 +13,7 @@ const Projects = () => {
       id: 1,
       title: "AI based Online Ticketing System",
       description: "An AI based Online chatbot based Ticketing System for Museums and Tourist Places, providing users with AI Guide  and ticket booking options.",
-      image: "./src/assets/ticket.png",
+      image: ticketImg,
       githubLink: "https://github.com/nikki1405/Ticket_tech-main",
       liveLink: "https://github.com/nikki1405/Ticket_tech-main",
       technologies: ["HTML" ," BootstrapCSS", "Django", "MySQL"]
@@ -16,7 +22,7 @@ const Projects = () => {
       id: 2,
       title: "VIIT GPA GENIE",
       description: "A web application that helps students calculate their CGPA priorly  based on their internal ans external marks.", 
-      image: "./src/assets/gpa.png",
+      image: gpaImg,
       githubLink: "https://github.com/nikki1405/VIIT_GPA_GENIE",
       liveLink: "https://viit-gpa-genie.vercel.app/",
       technologies: ["HTML", "CSS", "JavaScript"]
@@ -25,7 +31,7 @@ const Projects = () => {
       id: 3,
       title: "My Portfolio",
       description: "My personal portfolio website showcasing my projects, skills, and experience.",
-      image: "./src/assets/portifolio.png",
+      image: portfolioImg,
       githubLink: "https://github.com/nikki1405/my_portifolio",
       liveLink: "#",
       technologies: ["React", "TypeScript", "Tailwind CSS"] 
@@ -34,7 +40,7 @@ const Projects = () => {
       id: 4,
       title: "Rental Management System",
       description: "A rent prediction ML model based web app that helps users estimate house rents based on location, size, and other features!",
-      image: "./src/assets/rent.png",
+      image: rentImg,
       githubLink: "https://github.com/nikki1405/Rent_Seva",
       liveLink: "https://github.com/nikki1405/Rent_Seva",
       technologies: ["React", "Django", "Tailwind CSS","Machine Learning"]
@@ -43,7 +49,7 @@ const Projects = () => {
       id: 5,
       title: "AAharsetu Food Bridge",
       description: "A web application that connects food donors with NGOs and individuals in need, facilitating food distribution and reducing food waste.",
-      image: "./src/assets/ahar.png",
+      image: aharImg,
       githubLink: "https://github.com/nikki1405/ahaarsetu-food-bridge",
       liveLink: "https://ahaarsetu-food-bridge.lovable.app/",
       technologies: ["Django", "React", "Tailwind CSS", "MySQL"]
@@ -52,7 +58,7 @@ const Projects = () => {
       id: 6,
       title: "Oniline Coding Platform",
       description: "A web application that allows users to practice coding problems, submit solutions, and receive feedback and coding tests.",
-      image: "./src/assets/code.png",
+      image: codeImg,
       githubLink: "https://github.com/nikki1405/codefairy-guardian-main",
       liveLink: "https://faircodekeeper.lovable.app/",
       technologies: ["React","Tailwind CSS" , "Django", "Machine Learning"]
