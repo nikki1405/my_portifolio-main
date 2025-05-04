@@ -25,18 +25,20 @@ export default defineConfig(({ mode }) => ({
     sourcemap: true,
     rollupOptions: {
       output: {
+        manualChunks: undefined,
         assetFileNames: (assetInfo: { name?: string }) => {
           if (!assetInfo.name) return 'assets/[name].[hash][extname]';
           const info = assetInfo.name.split('.');
           const extType = info[info.length - 1];
           if (/png|jpe?g|svg|gif|tiff|bmp|ico|webp/i.test(extType)) {
-            return `assets/images/[name].[hash][extname]`;
+            return `assets/[name].[hash][extname]`;
           }
           return `assets/[name].[hash][extname]`;
-        },
-        chunkFileNames: 'assets/js/[name].[hash].js',
-        entryFileNames: 'assets/js/[name].[hash].js',
+        }
       }
-    }
+    },
+    assetsInlineLimit: 0, // This ensures all assets are processed as files
+    manifest: true,
+    emptyOutDir: true
   }
 }));
