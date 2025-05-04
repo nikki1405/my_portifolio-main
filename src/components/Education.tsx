@@ -1,5 +1,4 @@
 import { Briefcase, BookOpen, GraduationCap } from "lucide-react";
-import schoolImage from "../assets/school.webp";
 
 const Education = () => {
   const educationData = [
@@ -28,7 +27,7 @@ const Education = () => {
       period: "2020 - 2021",
       score: "Percentage: 96%",
       icon: <Briefcase className="w-6 h-6" />,
-      image: schoolImage
+      image: "https://www.addressguru.in/images/1729193079.png"
     }
   ];
 
