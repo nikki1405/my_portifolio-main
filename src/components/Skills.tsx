@@ -16,6 +16,15 @@ const Skills = () => {
     { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
   ];
 
+  const aimlSkills = [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+    { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+    { name: "ML Algorithms", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+    { name: "Matplotlib", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "Seaborn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
+  ];
+
   const tools = [
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
     { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
@@ -54,7 +63,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
           <SkillCard items={programmingLanguages} title="Programming Languages" />
         </div>
@@ -64,6 +73,10 @@ const Skills = () => {
         </div>
         
         <div className="animate-fade-in" style={{ animationDelay: '0.5s' }}>
+          <SkillCard items={aimlSkills} title="AI & Machine Learning" />
+        </div>
+
+        <div className="animate-fade-in" style={{ animationDelay: '0.7s' }}>
           <SkillCard items={tools} title="Tools & Platforms" />
         </div>
       </div>
