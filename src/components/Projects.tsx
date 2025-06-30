@@ -50,11 +50,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Online Coding Platform",
-      description: "A web application that allows users to practice coding problems, submit solutions, and receive feedback and coding tests.",
-      image: "https://raw.githubusercontent.com/nikki1405/my_portifolio-main/main/src/assets/code.png",
-      githubLink: "https://github.com/nikki1405/codefairy-guardian-main",
-      liveLink: "https://faircodekeeper.lovable.app/",
+      title: "StartSphere-Startup Incubator",
+      description: "A web application that provides a platform for startups to connect with mentors, investors, and resources to help them grow.",
+      image: "https://i.postimg.cc/s2YcvMQx/Screenshot-2025-06-30-101949.png",
+      githubLink: "https://github.com/nikki1405/startsphere",
+      liveLink: "v0-start-sphere.vercel.app",
       technologies: ["React","Tailwind CSS" , "Django", "Machine Learning"]
     }
   ];
