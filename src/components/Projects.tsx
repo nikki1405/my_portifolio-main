@@ -44,9 +44,9 @@ const Projects = () => {
       title: "AAharsetu Food Bridge",
       description: "A web application that connects food donors with NGOs and individuals in need, facilitating food distribution and reducing food waste.",
       image: "https://raw.githubusercontent.com/nikki1405/my_portifolio-main/main/src/assets/ahar.png",
-      githubLink: "https://github.com/nikki1405/ahaarsetu-food-bridge",
+      githubLink: "https://github.com/nikki1405/CSP",
       liveLink: "https://ahaarsetu-food-bridge.lovable.app/",
-      technologies: ["Django", "React", "Tailwind CSS", "MySQL"]
+      technologies: ["Django", "React", "Tailwind CSS", "MySQL","PayPal API"]
     },
     {
       id: 6,
