@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { DownloadIcon, FileIcon, ExternalLinkIcon } from "lucide-react";
 
 const Resume = () => {
-  const googleDocsUrl = "https://docs.google.com/document/d/1ucCm20chuyUrfllZew0umNYmWWvDueSc/edit?usp=drive_link&ouid=115257491182145476135&rtpof=true&sd=true";
+  const googleDocsUrl = "https://drive.google.com/file/d/14bGAxPZFuYN7GXfWevt_tYi82q4U4okx/view?usp=sharing";
   const fileId = "1ucCm20chuyUrfllZew0umNYmWWvDueSc";
   const downloadUrl = `https://docs.google.com/document/d/${fileId}/export?format=pdf`;
 
